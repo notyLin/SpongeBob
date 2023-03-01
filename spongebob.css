@@ -1,0 +1,45 @@
+canvas { 
+  border: 1px solid gray;
+  width: 300px;
+  height: 300px;
+}
+
+body { 
+  margin: 0;
+  padding: 0 30%;
+  background-color: rgb(138, 211, 229);
+  color: black; 
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;  /* 1.4 times current font-size */
+  min-width: 320px;
+  text-align: justify;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.75em;
+  margin: 0;
+  padding: 10px 0;
+  color: grey;
+}
+
+h1 {
+  background-color: aliceblue;
+}
+
+/*Small devices (phones,600px and down) */
+@media screen and (max-width: 600px) {
+  canvas {
+    width: 500px;
+    height: 500px;
+  }
+
+  body {
+    padding: 0 0;
+  }
+}
